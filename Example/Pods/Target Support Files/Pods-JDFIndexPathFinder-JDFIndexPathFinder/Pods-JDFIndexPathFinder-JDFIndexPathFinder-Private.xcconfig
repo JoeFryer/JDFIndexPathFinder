@@ -1,0 +1,5 @@
+#include "Pods-JDFIndexPathFinder-JDFIndexPathFinder.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/JDFIndexPathFinder" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Expecta" "${PODS_ROOT}/Headers/Public/JDFIndexPathFinder" "${PODS_ROOT}/Headers/Public/Specta"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}
