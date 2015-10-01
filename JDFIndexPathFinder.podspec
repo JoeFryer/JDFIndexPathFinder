@@ -9,30 +9,22 @@
 
 Pod::Spec.new do |s|
   s.name             = "JDFIndexPathFinder"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of JDFIndexPathFinder."
+  s.version          = "1.0"
+  s.summary          = "A UIViewController category for getting the indexPath of a UITableView/UICollectionView from a cell's subview."
   s.description      = <<-DESC
-                       An optional longer description of JDFIndexPathFinder
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       JDFIndexPathFinder is a UIViewController category for getting the indexPath of a UITableView/UICollectionView from a cell's subview.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JDFIndexPathFinder"
+  s.homepage         = "https://github.com/JoeFryer/JDFIndexPathFinder"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Joe Fryer" => "joe.d.fryer@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JDFIndexPathFinder.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/JoeFryer/JDFIndexPathFinder.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/joefryer88'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'JDFIndexPathFinder' => ['Pod/Assets/*.png']
-  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
